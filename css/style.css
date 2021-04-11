@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+h1 {
+  margin: 95px 0 0 0;
+  color: #a4ebf3;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 50px;
+  font-weight: 500;
+}
+h3 {
+  color: #66bfbf;
+  font-size: 30px;
+  margin: auto;
+}
+p {
+  width: 700px;
+  margin: 0 auto 70px auto;
+  line-height: 30px;
+}
+hr {
+  border-top-style: dotted;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-width: 8px;
+  width: 100px;
+  color: #dce2e3;
+  margin: 80px auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:#ffffff;
+}
+.top-container {
+  background-color: #00adb5;
+  padding-top: 25px;
+}
+.middle-container {
+  /* background-color: #00917c; */
+  background-color: #eeeeee;
+  padding-top: 25px;
+}
+.bottom-container {
+  background-color: #393e46;
+  height: 100px;
+  padding-top: 50px;
+}
+.mountain {
+  position: relative;
+  top: 4px;
+}
+.left-cloud {
+  position: absolute;
+  left: 300px;
+}
+.right-cloud {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+.icon {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+.intro {
+  margin: 0;
+  font-size: 30px;
+  color: #a4ebf3;
+}
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+.coding {
+  float: left;
+}
+.gaming {
+  float: right;
+}
+.contact-btn {
+  background: #11cdd4;
+  border-radius: 11px;
+  padding: 20px 45px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 26px/1 "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contact-btn:hover {
+    background: #30e3cb;
+}
+.contact-link {
+    color: #11999E;
+    margin: 10px 20px;
+}
+#menu {
+  margin: 0;
+  padding: 0;
+  margin-left: 800px;
+}
+#menu li {
+  list-style: none;
+  display: inline-block;
+}
+#menu li a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: sans-serif;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+#menu li a:before {
+  content: "";
+  width: 60px;
+  position: absolute;
+  border-bottom: 8px solid #313131;
+  bottom: 0;
+  right: 350px;
+  transition: 0.7s all;
+}
+#menu li a:hover:before {
+  right: 0;
+}
